@@ -21,7 +21,7 @@ export class AuthService {
     private readonly http = inject(HttpClient);
 
     private readonly apiUrl =
-        'http://localhost:8080/api/auth';
+        'https://carga-aerea-backend.onrender.com/api/auth';
 
     private readonly tokenKey = 'carga_aerea_token';
     private readonly usuarioKey = 'carga_aerea_usuario';
