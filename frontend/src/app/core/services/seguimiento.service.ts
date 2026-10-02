@@ -12,7 +12,7 @@ import {
 })
 export class SeguimientoService {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/publico';
+    private readonly apiUrl = 'https://carga-aerea-backend.onrender.com/api/publico';
 
     rastrear(codigo: string): Observable<SeguimientoPublico> {
         return this.http.get<SeguimientoPublico>(

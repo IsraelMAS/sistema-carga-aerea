@@ -14,7 +14,7 @@ import {
 })
 export class VueloService {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/vuelos';
+    private readonly apiUrl = 'https://carga-aerea-backend.onrender.com/api/vuelos';
 
     listar(
         page = 0,

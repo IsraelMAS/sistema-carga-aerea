@@ -14,7 +14,7 @@ type TipoEntidadAuditada = 'Vuelo' | 'Encomienda' | 'Usuario';
 })
 export class AuditoriaService {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/auditoria';
+    private readonly apiUrl = 'https://carga-aerea-backend.onrender.com/api/auditoria';
 
     recientes(
         limite = 50,

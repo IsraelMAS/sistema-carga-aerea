@@ -14,7 +14,7 @@ import {
 })
 export class UsuarioService {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/usuarios';
+    private readonly apiUrl = 'https://carga-aerea-backend.onrender.com/api/usuarios';
 
     listar(
         page = 0,

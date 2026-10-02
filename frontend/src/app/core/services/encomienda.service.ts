@@ -15,7 +15,7 @@ import { PageResponse } from '../models/page.model';
 })
 export class EncomiendaService {
     private readonly http = inject(HttpClient);
-    private readonly apiUrl = 'http://localhost:8080/api/encomiendas';
+    private readonly apiUrl = 'https://carga-aerea-backend.onrender.com/api/encomiendas';
 
     listar(
         page = 0,
